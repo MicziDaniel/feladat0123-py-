@@ -2,7 +2,10 @@ import os,random
 
 #kölünbség
 def kulonbseg(orsz1,orsz2):
-    return abs(orsz1-orsz2)
+    if (orsz1>orsz2):
+        return orsz1-orsz2
+    else:
+        return orsz2-orsz1
 
 os.system("cls")
 #2ország lakosság száma(8-20 millió)
